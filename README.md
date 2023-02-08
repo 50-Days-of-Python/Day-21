@@ -9,7 +9,7 @@ make_tuples function
 
 **Tests** | **1** | **2** | **3**
 --- | --- | --- | --- 
-**Input arguments:** | `[1,2,3,4], [5,6,7,8]` | `[1,2.5,3,4], [5,6,7,8]` | ['a','b','c','d'], `['e','f','g','h']` 
+**Input arguments:** | `[1,2,3,4], [5,6,7,8]` | `[1,2.5,3,4], [5,6,7,8]` | `['a','b','c','d'], ['e','f','g','h']` 
 **Return:** | `[(1,5), (2,6), (3,7), (4,8)]` | `[(1,5), (2.5,6), (3,7), (4,8)]` | `[('a','e'), ('b','f'), ('c','g'), ('d','h')]` 
 **Validity** | :white_check_mark: | :white_check_mark: | :white_check_mark: 
 
@@ -49,10 +49,10 @@ You can always change your code. So don't be disappointed if your code fails, **
 <details>
 <summary>Hint</summary>
 <br>
-https://www.w3schools.com/python/python_lists.asp
-https://www.geeksforgeeks.org/python-list-comprehension/
-https://www.w3schools.com/python/python_functions.asp
-https://www.w3schools.com/python/python_conditions.asp
+https://www.w3schools.com/python/python_lists.asp<br>
+https://www.geeksforgeeks.org/python-list-comprehension/<br>
+https://www.w3schools.com/python/python_functions.asp<br>
+https://www.w3schools.com/python/python_conditions.asp<br>
 https://www.w3schools.com/python/python_return.asp
 <br>
 </details>
