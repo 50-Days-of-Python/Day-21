@@ -1,6 +1,6 @@
-def capitalize(sentence):
-  capitilized_sentence = ""
+def make_tuples(lists):
+  new_list = []
   # Insert code below
   
   # Insert code above
-  return capitilized_sentence
+  return new_list
