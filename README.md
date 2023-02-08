@@ -1,36 +1,35 @@
-# Day-20
+# Day-21
 
-### Capitalize First Letter
-Write a function called capitalize. This function takes a string as an argument and capitalizes the first letter of each word.   
-For example, `‘i like learning’` becomes `‘I Like Learning’`.
+### List of Tuples
+Write a function called `make_tuples` that takes two lists, `equal lists`, and combines them into a list of tuples.   
+For example, if list **a** is **[1,2,3,4]** and list **b** is **[5,6,7,8]**, your function should return **[(1,5), (2,6), (3,7), (4,8)]**.
 
-count_words function
+
+make_tuples function
 
 **Tests** | **1** | **2** | **3**
 --- | --- | --- | --- 
-**Input arguments:** | `I love learning` | `gitam tho sadidham` | `do you know CXR` 
-**Return:** | `I Love Learning` | `Gitam Tho Sadidham` | `Do You Know CXR` 
+**Input arguments:** | `[1,2,3,4], [5,6,7,8]` | `[1,2.5,3,4], [5,6,7,8]` | ['a','b','c','d'], `['e','f','g','h']` 
+**Return:** | `[(1,5), (2,6), (3,7), (4,8)]` | `[(1,5), (2.5,6), (3,7), (4,8)]` | `[('a','e'), ('b','f'), ('c','g'), ('d','h')]` 
 **Validity** | :white_check_mark: | :white_check_mark: | :white_check_mark: 
 
 
 ## Extra Challenge  
 
-### Reversed List  
-`str1 = 'leArning is hard, bUt if You appLy youRself you can achieVe success'`  
-You are given a string of words. Some of the words in the string contain uppercase letters. Write a code that will return all the words that have an uppercase letter. Your code should return a list of the words. Each word in the list should be reversed. Here is how your output should look:  
-`['gninrAel', 'tUb', 'uoY', 'yLppa', 'flesRuoy', 'eVeihca']`
+### Even Number or Average  
+Write a function called `even_or_average` that ask a user to input five numbers. Once the user is done, the code should return the largest even number in the inputted numbers. If there is no even number in the list, the code should return the  average of all the five numbers.
 
 &nbsp;
 &nbsp;
 
 
-count_characters function
+even_or_average function
 
-**Tests** | **1** |
---- | --- | 
-**Input arguments:** | `leArning is hard, bUt if You appLy youRself you can achieVe success` |  
-**Return:** | `['gninrAel', 'tUb', 'uoY', 'yLppa', 'flesRuoy', 'eVeihca']` | 
-**Validity** | :white_check_mark: |  
+**Tests** | **1** | **2** | **3**
+--- | --- | --- | --- 
+**Input arguments:** | `[1, 3, 5, 7, 9]` | `[2, 4, 6, 8, 10]` | `[-2, 4, -6, 8, -10]` 
+**Return:** | `4.0` | `10` | `8` 
+**Validity** | :white_check_mark: | :white_check_mark: | :white_check_mark: 
 
 &nbsp;
 &nbsp;
@@ -53,10 +52,11 @@ You can always change your code. So don't be disappointed if your code fails, **
 <details>
 <summary>Hint</summary>
 <br>
-https://www.geeksforgeeks.org/enumerate-in-python/  
-https://www.w3schools.com/python/ref_string_capitalize.asp#:~:text=The%20capitalize()%20method%20returns,the%20rest%20is%20lower%20case.  
-https://www.w3schools.com/python/ref_string_islower.asp    
-https://www.geeksforgeeks.org/python-string-ascii_uppercase/
+https://www.w3schools.com/python/python_lists.asp
+https://www.geeksforgeeks.org/python-list-comprehension/
+https://www.w3schools.com/python/python_functions.asp
+https://www.w3schools.com/python/python_conditions.asp
+https://www.w3schools.com/python/python_return.asp
 <br>
 </details>
 
