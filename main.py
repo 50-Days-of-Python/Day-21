@@ -1,4 +1,4 @@
-def make_tuples(lists):
+def make_tuples(*lists):
   new_list = []
   # Insert code below
   
