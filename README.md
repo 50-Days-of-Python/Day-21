@@ -13,21 +13,6 @@ make_tuples function
 **Return:** | `[(1,5), (2,6), (3,7), (4,8)]` | `[(1,5), (2.5,6), (3,7), (4,8)]` | `[('a','e'), ('b','f'), ('c','g'), ('d','h')]` 
 **Validity** | :white_check_mark: | :white_check_mark: | :white_check_mark: 
 
-
-## Extra Challenge  
-
-### Even Number or Average  
-Write a `program` that ask a user to input five numbers. Once the user is done, the code should return the largest even number in the inputted numbers. If there is no even number in the list, the code should return the  average of all the five numbers.
-
-&nbsp;
-&nbsp;
-
-**Tests** | **1** | **2** | **3**
---- | --- | --- | --- 
-**Input arguments:** | `[1, 3, 5, 7, 9]` | `[2, 4, 6, 8, 10]` | `[-2, 4, -6, 8, -10]` 
-**Return:** | `4.0` | `10` | `8` 
-**Validity** | :white_check_mark: | :white_check_mark: | :white_check_mark: 
-
 &nbsp;
 &nbsp;
 
